@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <title>ChatApp</title>
+</head>
+
+<body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Chat Uygulaması</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Giriş Sayfası</a></li>
+                        <li><a href="/index.html">Anasayfa</a></li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+                
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="formdiv col-md-6 offset-md-3 col-sm-12">
+                <h4 class="text-center">
+                    Mesajlaşmak için lütfen isminizi giriniz.
+
+                    </h1>
+                    
+                    <form action="index.html" method="GET">
+                    <input type="text" class="form-control" name="user" placeholder="İsminizi giriniz...">
+                    <button type="submit" class="btn btn-primary btnSend">Giriş yap</button></a>
+                    </form>
+                    <br>
+
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="/main.js"></script>
+    <script src="/server.js"></script>
+</body>
+
+</html>
